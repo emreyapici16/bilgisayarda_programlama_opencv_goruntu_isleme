@@ -5,7 +5,7 @@
 
 #Opencv kütüphanesi kullanılara çeşitli el hareketlerini algılayıp ve algılanan bu hareketi anlamlandırarak anlamlı bir sonuç çıkartılıyor projemizde
 
-#projenin 1/3 lük bölümüdür emre yapıcıya aittir
+#------------------------------------------------------projenin 1/3 lük bölümüdür emre yapıcıya aittir ---------------------------------
 
 #Opencv fonksiyonlarını kullanabilmek için opencv kütüphanesini dahil ediyoruz
 import cv2
@@ -95,7 +95,7 @@ while(1):
         hull = cv2.convexHull(approx, returnPoints=False)
         defects = cv2.convexityDefects(approx, hull)
         
-        #projenin 2/3 lük bölümüdür furkan özkana aittir
+        #----------------------------------------------projenin 2/3 lük bölümüdür furkan özkana aittir---------------------------------------------------
         
         #toplam kusur sayısına sıfır veriliyor
         l=0
@@ -152,7 +152,7 @@ while(1):
                     #elimiz kutunun içinde ve elimizle bir şey yapmıyorsak ekranda 0 yazacaktır
                     cv2.putText(frame,'0',(0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
                     
-                    #projenin3/3 lük bölümüdür elif acuna aittir
+                    #-----------------------------------------projenin3/3 lük bölümüdür elif acuna aittir------------------------------------------
                     
                 #elimizin olmadığı alan 17.5tan küçükse    
                 elif areaRatio<17.5:
