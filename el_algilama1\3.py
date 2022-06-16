@@ -5,7 +5,7 @@
 
 #Opencv kütüphanesi kullanılara çeşitli el hareketlerini algılayıp ve algılanan bu hareketi anlamlandırarak anlamlı bir sonuç çıkartılıyor projemizde
 
-
+#projenin 1/3 lük bölümüdür emre yapıcıya aittir
 
 #Opencv fonksiyonlarını kullanabilmek için opencv kütüphanesini dahil ediyoruz
 import cv2
