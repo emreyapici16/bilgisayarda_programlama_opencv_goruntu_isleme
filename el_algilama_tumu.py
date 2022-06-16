@@ -97,7 +97,7 @@ while(1):
         
         #----------------------------------------------projenin 2/3 lük bölümüdür furkan özkana aittir---------------------------------------------------
         
-        #toplam kusur sayısına sıfır veriliyor
+        #toplam kusur sayısına sıfır veriliyor 
         l=0
         
         #defects içindeki kusurların değerlerini tek tek değişkenlere atılıyor daha sonrasında o değişkenler çizimde kullanılacaktır
