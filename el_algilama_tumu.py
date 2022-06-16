@@ -154,7 +154,7 @@ while(1):
                     
                     #-----------------------------------------projenin3/3 lük bölümüdür elif acuna aittir------------------------------------------
                     
-                #elimizin olmadığı alan 17.5tan küçükse    
+                #elimizin olmadığı alan 17.5tan küçükse     
                 elif areaRatio<17.5:
                     cv2.putText(frame,'best luck',(0,50), font, 2, (0,0,255), 3, cv2.LINE_AA)
                    
